@@ -1,18 +1,35 @@
 /* Start Box */
+.d-block {
+    display: block;
+}
 .d-flex {
     display: flex;
 }
 .align-center {
     align-items: center;
 }
-.w-full {
-    width: 100%;
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
 }
 .d-grid {
     display: grid;
 }
 .gap-20 {
     gap: 20px;
+}
+.wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
 }
 /* End Box */
 /* Start Padding + Margin */
@@ -28,22 +45,46 @@
 .p-20 {
     padding: 20px;
 }
+.m-0 {
+    margin: 0;
+}
 .m-20 {
     margin: 20px;
 }
 .mt-0 {
     margin-top: 0;
 }
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
 /* End Padding + Margin */
 /* Start Color */
+.bg-blue {
+    background-color: var(--blue-color);
+}
 .bg-eee {
     background-color: #eee;
 }
 .bg-white {
     background-color: white;
 }
+.c-white {
+    color: white;
+}
 .color-0 {
     color: black;
+}
+.c-grey {
+    color: var(--grey-color);
 }
 /* End Color */
 /* Start Position */
@@ -57,6 +98,9 @@
 /* Start Font */
 .txt-c {
     text-align: center;
+}
+.txt-r {
+    text-align: right;
 }
 .fs-14 {
     font-size: 14px;
@@ -80,10 +124,30 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+.rad-50 {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 /* End Border */
+/* Media Mobile settings */
 @media (max-width: 767px) {
     .hide-mobile {
         display: none;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .block-mobile {
+        display: block;
+    }
+    .wrapper {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
     }
 }
 /* Start Component */
@@ -91,5 +155,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
 }
 /* End Component */

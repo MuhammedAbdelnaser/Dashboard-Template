@@ -163,7 +163,7 @@ ul {
     margin-left: 15px;
 }
 /* End Content Head*/
-/* Start Content Dashboard*/
+/* Start Dashboard Head*/
 .content > h1 {
     margin: 20px 20px 40px;
 }
@@ -183,4 +183,55 @@ ul {
     width: 40px;
     background-color: black;
 }
-/* Start Content Dashboard*/
+/* End Dashboard Head*/
+/* Start Welcome Widget */
+.welcome {
+    overflow: hidden;
+}
+.welcome .intro {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.welcome .intro img {
+    width: 200px;
+    margin-bottom: -10px;
+}
+.welcome .avatar {
+    width: 64px;
+    height: 64px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px #ddd;
+    padding: 2px;
+    margin-top: -32px;
+    margin-left: 20px;
+}
+.welcome .table {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.welcome .table > div {
+    flex: 1;
+}
+.welcome .visit {
+    margin: 0 15px 15px auto;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.welcome .visit:hover {
+    background-color: var(--blue-alt-color);
+}
+@media (max-width: 767px) {
+    .welcome .intro {
+        padding-bottom: 30px;
+    }
+    .welcome .avatar {
+        margin-left: 0;
+    }
+    .welcome .table > div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+/* End Welcome Widget */
