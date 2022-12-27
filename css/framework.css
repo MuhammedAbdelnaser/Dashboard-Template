@@ -1,0 +1,95 @@
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.w-full {
+    width: 100%;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* End Box */
+/* Start Padding + Margin */
+.p-0 {
+    padding: 0px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+/* End Padding + Margin */
+/* Start Color */
+.bg-eee {
+    background-color: #eee;
+}
+.bg-white {
+    background-color: white;
+}
+.color-0 {
+    color: black;
+}
+/* End Color */
+/* Start Position */
+.relative {
+    position: relative
+}
+.hidden {
+    overflow: hidden;
+}
+/* Start Position */
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+/* End Font */
+/* Start Border */
+.bor-s-c {
+    border: 1px solid #ccc;
+}
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* End Border */
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+/* Start Component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Component */
