@@ -318,5 +318,15 @@ ul {
     background-color: rgb(34 197 94 / 20%);
 }
 /* End Target Widget */
-/* Start Target Widget */
-/* End Target Widget */
+/* Start Statistics Widget */
+.tickets-stats {
+    
+}
+.tickets-stats .box {
+    border: 1px solid #ccc;
+    width: calc(50% - 10px);
+}
+.tickets-stats {
+    
+}
+/* End Statistics Widget */
