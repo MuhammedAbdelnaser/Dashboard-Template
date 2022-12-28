@@ -63,6 +63,12 @@
 .mt-20 {
     margin-top: 20px;
 }
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10;
+}
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -70,6 +76,12 @@
 /* Start Color */
 .bg-blue {
     background-color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
 }
 .bg-eee {
     background-color: #eee;
@@ -85,6 +97,15 @@
 }
 .c-grey {
     color: var(--grey-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
 }
 /* End Color */
 /* Start Position */
@@ -105,10 +126,19 @@
 .fs-14 {
     font-size: 14px;
 }
+.fs-15 {
+    font-size: 15px;
+}
+.fw-bold {
+    font-weight: bold;
+}
 /* End Font */
 /* Start Border */
 .bor-s-c {
     border: 1px solid #ccc;
+}
+.b-none {
+    border: none;
 }
 .rad-6 {
     border-radius: 6px;
@@ -155,6 +185,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-shape {
     padding: 4px 10px;
