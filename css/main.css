@@ -343,9 +343,6 @@ ul {
 }
 /* End News Widget */
 /* Start Tasks Widget */
-.tasks {
-    
-}
 .tasks .task:not(:last-of-type) {
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -355,3 +352,6 @@ ul {
     text-decoration: line-through;
 }
 /* End Tasks Widget */
+/* Start Search Widget */
+
+/* End Search Widget */

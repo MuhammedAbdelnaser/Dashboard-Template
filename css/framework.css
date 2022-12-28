@@ -39,6 +39,9 @@
 .p-0 {
     padding: 0px;
 }
+.p-5 {
+    padding: 5px;
+}
 .p-10 {
     padding: 10px;
 }
@@ -47,6 +50,10 @@
 }
 .p-20 {
     padding: 20px;
+}
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .py-20 {
     padding-top: 20px;
