@@ -352,6 +352,20 @@ ul {
     text-decoration: line-through;
 }
 /* End Tasks Widget */
-/* Start Search Widget */
-
-/* End Search Widget */
+/* Start Uploads Widget */
+.uploads .file .content {
+    flex: 1;
+}
+.uploads .file > img {
+    width: 40px;
+    margin-right: 10px;
+}
+.uploads .file  > span {
+    padding: 5px 10px;
+}
+.uploads .file:not(:last-of-type) {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+/* End Uploads Widget */
