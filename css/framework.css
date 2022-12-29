@@ -106,6 +106,9 @@
 .bg-green {
     background-color: var(--green-color);
 }
+.bg-red {
+    background-color: var(--red-color);
+}
 .bg-eee {
     background-color: #eee;
 }
@@ -137,6 +140,9 @@
 /* Start Position */
 .relative {
     position: relative
+}
+.absolute {
+    position: absolute
 }
 .hidden {
     overflow: hidden;
