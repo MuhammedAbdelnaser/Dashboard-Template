@@ -446,6 +446,12 @@ ul {
     width: 160px;
     opacity: 0.1;
 }
+@media (max-width:767px) {
+    .project-progress .rocket > img {
+        bottom: 140px;
+        right: -40px;
+    }
+}
 /* End Progress Widget */
 /* Start Reminder Widget */
 .reminders .reminder .circle {
@@ -456,8 +462,22 @@ ul {
     width: 1px;
     height: 45px;
 }
-
 /* End Reminder Widget */
+/* Start Latest Post Widget */
+.latest-post .admin img {
+    width: 48px;
+    height: 48px;
+}
+.latest-post .content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
+}
+.latest-post .reacts {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+/* End Latest Post Widget */
 /* Animation */
 @keyframes progress {
     0% {
