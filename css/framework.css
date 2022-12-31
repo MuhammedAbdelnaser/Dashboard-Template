@@ -5,6 +5,9 @@
 .d-flex {
     display: flex;
 }
+.justify-center {
+    justify-content: center;
+}
 .align-center {
     align-items: center;
 }
@@ -27,6 +30,9 @@
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     margin-left: 20px;
     margin-right: 20px;
+}
+.h-full {
+    height: 100%;
 }
 .w-full {
     width: 100%;
@@ -90,7 +96,10 @@
     margin-bottom: 5px;
 }
 .mb-10 {
-    margin-bottom: 10;
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
 }
 .mb-20 {
     margin-bottom: 20px;
